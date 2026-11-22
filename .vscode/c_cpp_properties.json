@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Godot-CPP-Portable",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/build/_deps/godot-cpp-src/include",
+                "${workspaceFolder}/build/_deps/godot-cpp-src/gdextension",
+                "${workspaceFolder}/build/_deps/godot-cpp-build/gen/include",
+                "${workspaceFolder}/build/godot-cpp-src/include",
+                "${workspaceFolder}/build/godot-cpp-src/gdextension",
+                "${workspaceFolder}/build/godot-cpp-build/gen/include"
+            ],
+            "defines": [
+                "DEBUG_ENABLED",
+                "GDEXTENSION",
+                "THREADS_ENABLED",
+                "WINDOWS_ENABLED"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

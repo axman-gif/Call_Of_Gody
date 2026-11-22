@@ -1,0 +1,30 @@
+# Build & Binary Outputs (Note: track or regenerate via CMake)
+build/CMakeFiles/
+build/_deps/
+build/godot-cpp-build/
+build/godot-cpp-src/
+build/bin/
+build/*.a
+build/.ninja_deps
+build/.ninja_log
+build/build.ninja
+build/cmake_install.cmake
+build/CMakeCache.txt
+build/compile_commands.json
+
+# Godot local editor cache
+.godot/
+
+# IDE & Clangd caches
+.cache/
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Explicitly allow our compiled GDExtension DLL in root /bin/ (overrides global *.dll ignore)
+# so clicking "Clone Again" onto the A:\ RAMDisk lets you open & play immediately!
+!/bin/
+!/bin/*.dll
+!/bin/*.so
+!/bin/*.dylib

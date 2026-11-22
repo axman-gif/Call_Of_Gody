@@ -1,0 +1,14 @@
+-xc++
+-std=c++17
+-DDEBUG_ENABLED
+-DGDEXTENSION
+-DTHREADS_ENABLED
+-DWINDOWS_ENABLED
+-Iinclude
+-Isrc
+-Ibuild/_deps/godot-cpp-src/include
+-Ibuild/_deps/godot-cpp-src/gdextension
+-Ibuild/_deps/godot-cpp-build/gen/include
+-Ibuild/godot-cpp-src/include
+-Ibuild/godot-cpp-src/gdextension
+-Ibuild/godot-cpp-build/gen/include

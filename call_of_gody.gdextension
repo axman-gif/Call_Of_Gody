@@ -1,0 +1,17 @@
+[configuration]
+
+entry_symbol = "call_of_gody_library_init"
+compatibility_minimum = "4.4"
+reloadable = true
+
+[libraries]
+
+windows.debug.x86_64 = "res://bin/libcall_of_gody.dll"
+windows.release.x86_64 = "res://bin/libcall_of_gody.dll"
+windows.editor.x86_64 = "res://bin/libcall_of_gody.dll"
+linux.debug.x86_64 = "res://bin/libcall_of_gody.so"
+linux.release.x86_64 = "res://bin/libcall_of_gody.so"
+linux.editor.x86_64 = "res://bin/libcall_of_gody.so"
+macos.debug = "res://bin/libcall_of_gody.dylib"
+macos.release = "res://bin/libcall_of_gody.dylib"
+macos.editor = "res://bin/libcall_of_gody.dylib"

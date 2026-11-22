@@ -1,0 +1,1 @@
+This file tells the Godot Engine Editor to ignore CMake/Ninja C++ build artifacts (.obj, .a, .d) inside the build/ folder so Godot does not mistake C++ .obj files for 3D Wavefront .obj meshes.

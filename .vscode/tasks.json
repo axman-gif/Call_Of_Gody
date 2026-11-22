@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Call_Of_Gody (CMake)",
+            "type": "shell",
+            "command": "cmake -B build -DCMAKE_BUILD_TYPE=Release; cmake --build build -j 8",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Configures and compiles the C++17 GDExtension shared library into bin/"
+        }
+    ]
+}
